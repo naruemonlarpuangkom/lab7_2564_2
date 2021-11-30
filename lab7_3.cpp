@@ -2,6 +2,27 @@
 
 using namespace std;
 
+int addiff(int a, int b){
+  int x,i=0;
+  while (i == 0){
+    if(a >= 360 or a <= -360){
+      a=a-360;
+    }
+    else{
+      i++;
+  }
+  }
+  i=0;
+  while (i == 0){
+    if(b >= 360 or b <= -360);{
+      b=b-360;
+    }
+  x=a-b;
+  if(x < 0){
+    x=x*-1;
+  }
+  
+}
 
 int main(){
   cout << adiff(180,270);
